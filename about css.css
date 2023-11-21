@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type:none ;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.head-bar{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: black;
+    border-bottom: 5px solid rgb(184, 4, 184);
+}
+.logo{
+    display:flex;
+    width: 80%;
+    height: 150px;
+    background-color:transparent;
+    margin: auto;
+    align-items: center;
+    justify-content:space-between;
+}
+.logo img{
+    margin-left: -28%;
+    width: 300px ;
+    
+}
+.logo form{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    display: flex; 
+    margin-right: 30%;
+
+}
+.logo form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+.logo form button{
+    background-color: rgb(162, 85, 233);
+    width: 90px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 10px;
+    color: white;
+    
+}
+.logo form .fa-magnifying-glass{
+    align-self: center;
+    padding: 15px;
+    color: rgb(20, 19, 19);
+    margin-left: -1px;
+}
+.call{
+    font-size: 25px;
+    color: white;
+    /* background-color: rgb(216, 73, 216); */
+    padding: 20px;
+    border-radius:50% ;
+} 
+.call i{
+    color:rgb(162, 85, 233) ;
+}   
+.menu{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.menu ul{
+    display: flex;
+    margin-left: -1.5%;
+
+}
+.menu ul li a{
+    display: block;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu ul li a i{
+    margin-right: 2px;
+    font-size: 25px;
+    color: rgb(145, 57, 228);
+    margin-right: 10px;
+}
+.menu ul li a:hover{
+    background-color: #d86a79;
+}
+
+.container-1{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color:white;
+    margin: auto;
+    
+}
+
+.container{
+    width: 25%;
+    height:auto ;
+    overflow: hidden;
+    /* background-color: black; */
+}
+.menu-stand{
+    width: 90%;
+    height: 70%;
+    background-color: #a15097;
+     /* position: fixed;  */
+    left: 0;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.menu-stand header{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: rgb(211, 18, 211);
+    user-select: none;
+
+}
+.menu-stand ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 23px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .5);
+    border-bottom: 1px solid rgb(187, 72, 187);
+    transition: .4s;
+}
+ .menu-stand ul li:hover a{
+    padding-left: 50px;
+    background-color: rgba(126, 5, 53, 0.333);
+}
+.menu-stand ul a i{
+        margin-right: 20px;}
+
+.box{
+    width: 75%;
+    height: 500px;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    /* background-color: black; */
+    float: right;
+    margin-top: -31%;
+    /* border: 1px solid black; */
+}
+.box-1{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    /* background-color: #d86a79; */
+}
+.box-1-1{
+    width: 50%;
+    height:50px ;
+    background-color:rgba(216, 112, 147, 0.699);
+    margin: auto;
+}
+.box-1-1 h1{
+    text-align: center;
+}
+
+.box-1-2{
+    width:100% ; 
+    height: auto;
+    overflow: hidden;
+    /* background-color: #a15097; */
+    float: left;
+    margin-top: 20px;
+    
+    
+}
+.box-1-2-1{
+    width: 24.25%;
+    height: auto;
+    overflow: hidden;
+    background-color: rgba(128, 128, 128, 0.274);
+    border-radius: 10px;
+    margin-left: 5px;
+    float: left;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    /* background-color: chartreuse; */
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.box-1-2-1-2{
+    width: 100%;
+    height: 20%;
+    /* background-color: cadetblue; */
+}
+.box-1-2-1-2 h3{
+    margin-top: 20px;
+  text-align: center;
+  color:black;
+  font-size: 22px
+}
+.box-1-2-1-2 p{
+    margin-top:15px ;
+
+
+    background-color: rgba(221, 160, 221, 0.39);
+    text-align: center;
+     font-weight: bold;
+    font-size: 20px;
+   
+}
+.icon{
+    margin-top: 20px;
+    width:100% ;
+    height: 100%;
+    /* background-color: #a15050; */
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(175, 238, 238);
+}
+.icon i:hover{
+ color: #d86a79;
+}
